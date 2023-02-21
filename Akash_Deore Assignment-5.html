@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body {
+            background-color: rgb(202, 235, 152);
+        }
+    </style>
+</head>
+
+<body>
+    <h2 style="text-align:center"> Employee Registration Form</h2>
+  
+    <br><br>
+    <form>
+        <tr>
+            <td>
+                Firstname:
+            </td>
+            <td>
+                <input type="text" placeholder="Your Firstname">
+                <br><br>
+            </td>
+            <td>
+                Lastname:
+            </td>
+            <td>
+                <input type="text" placeholder="Your Lastname">
+                <br><br>
+            </td>
+            <td>
+                E-Mail Address:
+            </td>
+            <td>
+                <input type="email" placeholder="abc@xyz.com">
+            </td>
+        </tr>
+        <br><br>
+        <tr>
+            <td>
+                Contact Number:
+            </td>
+            <td>
+                <input type="number" placeholder="+91-XXXXXXXXX" maxlength="12">
+            </td>
+        </tr>
+        <br><br>
+        <tr>
+            <td>
+                Gender:
+            </td>
+            <td>
+                <label for="gender">Gender:</label>
+                <input type="radio" name="gender" value="male">Male
+                <input type="radio" name="gender" value="female" >Female
+                <input type="radio" name="gender" value="Other">Other
+            </td>
+        </tr>
+        <br><br>
+        <tr>
+            <td>
+                Date Of Birth:
+            </td>
+            <td>
+                <input type="Date" placeholder="DD/MM/YY">
+            </td>
+        </tr>
+        <br><br>
+        <tr>
+            <td>
+            Permanent Address:
+            </td>
+            <td>
+                <input type="text" placeholder=" Street Address">
+            </td>
+            <br><br>
+            <td> City :</td>
+            <td>
+                <input type="text" placeholder=" City">
+            </td>
+          
+            <td>
+                Country
+            </td>
+            <td>
+                <label for="Country">Please Select</label>
+
+                <select name="Country" id="Country">
+                    <option value="India">India</option>
+                    <option value="USA">USA</option>
+                    <option value="Autralia">Germany</option>
+                    <option value="Other">Other</option>
+                </select>
+            </td>
+        </tr>
+        <br><br>
+        Skills : <br />
+        <input type="checkbox" name="lang" value="C" /> C <br>
+        <input type="checkbox" name="lang" value="C++ " /> C++ <br>
+        <input type="checkbox" name="lang" value="Python" /> Python <br>
+        <input type="checkbox" name="lang" value="Java" /> Java <br><br>
+            <td>
+                Upload CV/ Cover-Letter
+            </td>
+            <td>
+                <input type="file">
+            </td>
+        </tr>
+        <br><br>
+        <tr>
+            <button type="submit" (onclick="Your application has been Submitted") value="Submit">Submit</button>
+            <button type="reset" value="Reset">Reset</button>
+        </tr>
+    </form>
+</body>
+
+</html>
